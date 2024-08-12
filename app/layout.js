@@ -1,8 +1,11 @@
-import { Inter } from "next/font/google";
+import { Inter, Lora } from "next/font/google";
+
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
+const lora = Lora({ subsets: ['latin'], weight: ['400', '700'] });
+
 
 export const metadata = {
   title: "Create Next App",

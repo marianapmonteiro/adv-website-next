@@ -8,12 +8,20 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.lora-font {
+  font-family: 'Lora', serif;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+.card-img {
+  clip-path: circle(50% at 50% 50%);
 }
 
 body {
