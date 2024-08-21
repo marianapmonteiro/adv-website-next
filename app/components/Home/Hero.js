@@ -60,7 +60,7 @@ const Hero = () => {
                             exit="exit"
                             custom={direction}
                         >
-                            * <div
+                            <div
                                 className="w-full h-full bg-cover bg-center bg-fixed"
                                 style={{ backgroundImage: images[bgImage] }}
                             />

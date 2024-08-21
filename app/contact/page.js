@@ -28,10 +28,10 @@ const Contact = () => {
     return (
         <div className="relative flex min-h-screen flex-col items-center justify-between bg-white pt-36">
             <div className="w-full h-auto  bg-white flex flex-col items-center pt-10 text-black pb-14">
-                <div className="text-black text-center md:text-[44.2px] sm:text-[36px] font-extrabold w-full xs:text-[24px] mb-20 xs:mb-12 ">
+                <div className="text-black text-center sm:text-[36px] font-extrabold w-full xs:text-[24px] mb-20 xs:mb-12 ">
                     <span className="border-b-[4px] h-36 border-yellow rounded-[3px] mt-2">Entre em contato conosco</span>
                 </div>
-                <div className="w-full h-auto max-w-[779px] xs:px-8 sm:px-8 md:px-0 md:pt-4 flex justify-center items-center text-[24px] xs:text-[16px] sm:text-[20px] md:text-[24px] pb-20">
+                <div className="w-full h-auto max-w-[779px] xs:px-8 sm:px-8 md:px-0 md:pt-4 flex justify-center items-center xs:text-[16px] sm:text-[20px] md:text-[24px] pb-20">
                     <p>
                         Estrella & Suita é um escritório de advocacia focado em atender suas necessidades.
                         <br />
@@ -39,7 +39,7 @@ const Contact = () => {
                         Para entrar em contato conosco preencha esse formulário abaixo ou envie-nos um e-mail para: <span className="font-extrabold">estrellasuita.adv@gmail.com</span> ou entre em contato por via whatsapp:<span className="font-extrabold">+33 6 46 812204</span>  teremos o prazer de atendê-lo bem.
                     </p>
                 </div>
-                <div className="lg:w-[70%] xs:w-full  xs:px-8 xs:max-w-[779px] md:max-w-[1024px] md:px-8 lg:px-0 justify-self-center">
+                <div className="md:w-[75%] xl:w-[50%] xs:w-full xs:px-10 md:px-0 justify-self-center">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="flex md:flex-row xs:flex-col gap-3 w-full mb-[50px] justify-center xs:items-start md:items-center">
                             <label htmlFor="name" className="xs:text-[18px] md:text-[24.88px]">Nome:</label>
@@ -95,7 +95,7 @@ const Contact = () => {
                         <div className="w-full flex justify-end">
                             <button
                                 type="submit"
-                                className="bg-yellow w-36 rounded-lg font-extrabold py-4 xs:text-sm sm:text-xs lg:text-lg text-black mt-12 transition duration-300 ease-in-out transform hover:bg-yellow-600 hover:-translate-y-1 hover:scale-105"
+                                className="bg-yellow w-36 rounded-lg font-extrabold py-4 xs:text-sm sm:text-xs lg:text-lg text-black mt-4 transition duration-300 ease-in-out transform hover:bg-yellow-600 hover:-translate-y-1 hover:scale-105"
                             >
                                 Enviar
                             </button>

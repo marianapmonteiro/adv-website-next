@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer className="md:h-[359px] w-full bg-black text-white ">
-            <div className=" w-full flex md:flex-row items-start justify-center xs:gap-10 md:gap-20  py-10 text-[14px] xs:flex-col xs:h-auto xs:pl-4">
+            <div className="bg-black w-full flex md:flex-row items-start justify-center xs:gap-10 md:gap-20  py-10 text-[14px] xs:flex-col xs:h-auto xs:pl-4">
                 <div className="flex flex-col justify-start w-auto">
                     <h4 className="font-extrabold">Atendimento</h4>
                     <ul className="list-none py-2 space-y-2">
@@ -78,8 +78,8 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="w-[100%] bg-yellow h-[1px] mt-2 mx-auto"></div>
-            <div className="w-full md:flex-row flex xs:flex-col  xs:items-start md:justify-center md:items-center px-4 xs:gap-4 md:gap-96 py-4">
+            <div className="w-[100%] bg-yellow h-[1px] mx-auto"></div>
+            <div className="w-full md:flex-row flex xs:flex-col  xs:items-start md:justify-center md:items-center px-4 xs:gap-4 md:gap-96 py-4 bg-black">
                 <div className="flex gap-2">
                     <img src="/language.png" alt="ícone de linguagem" />
                     <p className="text-[14px]">Português (BR)</p>

@@ -19,6 +19,16 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
+        <div className="fixed left-5 bottom-4">
+          <div className="absolute w-[65px] h-[65px] bg-green-500 rounded-full animate-ping"></div>
+          <a
+            href="https://api.whatsapp.com/send?phone=51000000000&text=Olá,%20gostaria%20de%20contratar%20um%20advogado."
+            target="_blank"
+            className="relative flex items-center justify-center"
+          >
+            <img src="/whatsapp-button.png" alt="botão whatsapp" className="w-[65px] h-[65px]" />
+          </a>
+        </div>
         <Footer />
       </body>
     </html>
