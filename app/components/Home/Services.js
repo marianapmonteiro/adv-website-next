@@ -26,8 +26,6 @@ const Services = () => {
                     </svg>
                 </div>
             </div>
-
-
         </div>
     );
 };

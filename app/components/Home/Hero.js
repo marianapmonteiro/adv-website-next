@@ -50,7 +50,7 @@ const Hero = () => {
         <div className="w-full h-full relative overflow-hidden">
             <div className="relative h-screen w-full">
                 <div className="absolute top-0 left-0 w-full h-full overflow-hidden bg-fixed bg-cover bg-center">
-                    <AnimatePresence initial={false} custom={direction} className="bg-fixed">
+                    <AnimatePresence initial={false} custom={direction} className="bg-fixed h-full w-full">
                         <motion.div
                             className="w-full h-full absolute top-0 left-0 bg-fixed"
                             key={bgImage}

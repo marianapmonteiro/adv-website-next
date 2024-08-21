@@ -2,6 +2,7 @@ import { Inter, Lora } from "next/font/google";
 
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const lora = Lora({ subsets: ['latin'], weight: ['400', '700'] });
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
