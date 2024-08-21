@@ -30,6 +30,7 @@ module.exports = {
       },
       colors: {
         yellow: '#D4B99E',
+        darkYellow: '#998672',
       },
       extend: {
         fontFamily: {

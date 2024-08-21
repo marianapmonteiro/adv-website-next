@@ -49,19 +49,19 @@ const Navbar = () => {
                 </button>
                 <ul className="md:gap-10 lg:gap-24 items-center hidden md:flex">
                     <li className="relative group">
-                        <Link href="/" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Nossos Advogados</Link>
+                        <Link href="/advogados" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Nossos Advogados</Link>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-yellow group-hover:w-full"></span>
                     </li>
                     <li className="relative group">
-                        <Link href="/" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Serviços</Link>
+                        <Link href="/servicos" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Serviços</Link>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-yellow group-hover:w-full"></span>
                     </li>
                     <li className="relative group">
-                        <Link href="/" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Sobre nós</Link>
+                        <Link href="/about" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Sobre nós</Link>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-yellow group-hover:w-full"></span>
                     </li>
                     <li className="relative group">
-                        <Link href="/" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Contato</Link>
+                        <Link href="/contact" className="font-inter font-bold leading-5 md:text-base lg:text-lg transition-colors duration-300 group-hover:text-yellow">Contato</Link>
                         <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-yellow group-hover:w-full"></span>
                     </li>
                 </ul>

@@ -73,9 +73,12 @@ const Hero = () => {
                         braço forte da <br />
                         <span className="text-white">Justiça</span>.
                     </p>
-                    <button className="mt-5 bg-yellow w-32 rounded-lg py-2 md:text-xs 2xl:text-sm text-black font-bold">
+                    <button
+                        className="mt-5 bg-yellow w-32 rounded-lg py-2 md:text-xs 2xl:text-sm text-black font-bold transition duration-300 ease-in-out hover:bg-darkYellow"
+                    >
                         Explore
                     </button>
+
                 </div>
                 <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex gap-4 xs:w-full xs:flex xs:justify-center xs:items-center">
                     <button onClick={prevStep}>

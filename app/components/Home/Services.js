@@ -10,8 +10,8 @@ const Services = () => {
         'Direito Empresarial ',
     ];
     return (
-        <div className="w-full h-auto bg-white flex flex-col justify-center pt-10">
-            <div className="text-black text-center md:text-[44.2px] font-extrabold w-full xs:text-[24px]">
+        <div className="w-full h-auto bg-white flex flex-col justify-center xs:pt-16 sm:pt-14 md:pt-10">
+            <div className="text-black text-center md:text-[44.2px] sm:text-[36px] font-extrabold w-full xs:text-[24px]">
                 <h3>Como podemos te ajudar?</h3>
                 <div className="w-[80%] bg-yellow h-2 mt-2 mx-auto rounded-2xl"></div>
             </div>
