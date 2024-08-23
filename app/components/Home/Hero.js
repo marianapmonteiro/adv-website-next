@@ -75,6 +75,9 @@ const Hero = () => {
                     </p>
                     <button
                         className="mt-5 bg-yellow w-32 rounded-lg py-2 md:text-xs 2xl:text-sm text-black font-bold transition duration-300 ease-in-out hover:bg-darkYellow"
+                        onClick={() => {
+                            document.getElementById("next-section").scrollIntoView({ behavior: 'smooth' });
+                        }}
                     >
                         Explore
                     </button>

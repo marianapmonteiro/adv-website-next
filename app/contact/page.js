@@ -42,12 +42,12 @@ const Contact = () => {
                 <div className="md:w-[75%] xl:w-[50%] xs:w-full xs:px-10 md:px-0 justify-self-center">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="flex md:flex-row xs:flex-col gap-3 w-full mb-[50px] justify-center xs:items-start md:items-center">
-                            <label htmlFor="name" className="xs:text-[18px] md:text-[24.88px]">Nome:</label>
+                            <label htmlFor="name" className="xs:text-[18px] md:text-[20px]">Nome:</label>
                             <input
                                 type="text"
                                 id="name"
                                 {...register("name")}
-                                className={`rounded-[10px] border w-full h-[58px] px-4 py-2 ${errors.name ? "border-red-500" : "border-black"
+                                className={`rounded-[10px] border w-full h-[50px] px-4 py-2 ${errors.name ? "border-red-500" : "border-black"
                                     } focus:border-yellow-500 focus:outline-none transition duration-300`}
                             />
                             {errors.name && (
@@ -55,12 +55,12 @@ const Contact = () => {
                             )}
                         </div>
                         <div className="flex md:flex-row xs:flex-col gap-3 w-full mb-[50px] justify-center xs:items-start md:items-center">
-                            <label htmlFor="email" className="xs:text-[18px] md:text-[24.88px] flex-shrink-0">Seu melhor e-mail:</label>
+                            <label htmlFor="email" className="xs:text-[18px] md:text-[20px] flex-shrink-0">E-mail:</label>
                             <input
                                 type="email"
                                 id="email"
                                 {...register("email")}
-                                className={`rounded-[10px] border w-full h-[58px] px-4 py-2 ${errors.email ? "border-red-500" : "border-black"
+                                className={`rounded-[10px] border w-full h-[50px] px-4 py-2 ${errors.email ? "border-red-500" : "border-black"
                                     } focus:border-yellow-500 focus:outline-none transition duration-300`}
                             />
                             {errors.email && (
@@ -68,12 +68,12 @@ const Contact = () => {
                             )}
                         </div>
                         <div className="flex md:flex-row xs:flex-col gap-3 w-full mb-[50px] justify-center xs:items-start md:items-center">
-                            <label htmlFor="topico" className="xs:text-[18px] md:text-[24.88px]">Tópico:</label>
+                            <label htmlFor="topico" className="xs:text-[18px] md:text-[20px]">Tópico:</label>
                             <input
                                 type="text"
                                 id="topico"
                                 {...register("topico")}
-                                className={`rounded-[10px] border w-full h-[58px] px-4 py-2 ${errors.topico ? "border-red-500" : "border-black"
+                                className={`rounded-[10px] border w-full h-[50px] px-4 py-2 ${errors.topico ? "border-red-500" : "border-black"
                                     } focus:border-yellow-500 focus:outline-none transition duration-300`}
                             />
                             {errors.topico && (
@@ -81,7 +81,7 @@ const Contact = () => {
                             )}
                         </div>
                         <div className="flex md:flex-row xs:flex-col gap-3 w-full mb-[50px] justify-center xs:items-start">
-                            <label htmlFor="message" className="xs:text-[18px] md:text-[24.88px]">Mensagem:</label>
+                            <label htmlFor="message" className="xs:text-[18px] md:text-[20px]">Mensagem:</label>
                             <textarea
                                 id="message"
                                 {...register("message")}

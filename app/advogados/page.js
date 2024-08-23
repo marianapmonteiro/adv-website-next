@@ -1,4 +1,5 @@
 import AdvCard from "../components/AdvCard.js"
+import Link from 'next/link';
 
 
 const Advogados = () => {
@@ -15,6 +16,19 @@ const Advogados = () => {
                         <AdvCard name={item} funcao="Especialista em Direito Civil" img={imgs[index]} />
                     )
                 })}
+            </div>
+            <div className="lg:max-w-[780px] mt-24 md:mt-36 text-black flex flex-col items-center justify-center gap-4 md:gap-10">
+                <h3 className="text-black text-start sm:text-[36px] font-extrabold w-full xs:text-[24px] xs:mb-0 ">
+                    Você gostaria de requisitar um dos nossos advogados?
+                </h3>
+                <Link href="/contact" passHref>
+                    <button
+                        type="button"
+                        className="bg-yellow w-40 rounded-lg font-extrabold py-3 xs:text-sm sm:text-xs lg:text-lg text-black xs:mt-4 md:mt-0 transition duration-300 ease-in-out transform hover:bg-yellow-600 hover:-translate-y-1 hover:scale-105"
+                    >
+                        Contate-nos
+                    </button>
+                </Link>
             </div>
         </div>
     )

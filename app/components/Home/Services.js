@@ -19,7 +19,7 @@ const Services = () => {
                 {list.map((item, index) => (
                     <Card title={item} key={index} />
                 ))}
-                <div className="w-full flex items-center xs:justify-start sm:justify-end text-black font-extrabold text-[18.66px] gap-4 py-8 col-span-full">
+                <div className="w-full flex items-center xs:justify-start sm:justify-end text-black font-extrabold text-[18.66px] gap-4 xs:py-4 md:py-8 col-span-full">
                     <p className="hover:text-yellow transition-colors cursor-pointer">Mais serviços</p>
                     <svg width="167" height="24" className="xs:w-[100px] md:w-[167px]" viewBox="0 0 167 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM166.061 13.0607C166.646 12.4749 166.646 11.5251 166.061 10.9393L156.515 1.3934C155.929 0.807611 154.979 0.807611 154.393 1.3934C153.808 1.97919 153.808 2.92893 154.393 3.51472L162.879 12L154.393 20.4853C153.808 21.0711 153.808 22.0208 154.393 22.6066C154.979 23.1924 155.929 23.1924 156.515 22.6066L166.061 13.0607ZM2 13.5L165 13.5V10.5L2 10.5L2 13.5Z" fill="#D4B99E" />
