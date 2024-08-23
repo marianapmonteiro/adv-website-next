@@ -24,7 +24,7 @@ const Advogados = () => {
                 <Link href="/contact" passHref>
                     <button
                         type="button"
-                        className="bg-yellow w-40 rounded-lg font-extrabold py-3 xs:text-sm sm:text-xs lg:text-lg text-black xs:mt-4 md:mt-0 transition duration-300 ease-in-out transform hover:bg-yellow-600 hover:-translate-y-1 hover:scale-105"
+                        className="bg-yellow w-36 rounded-lg font-extrabold py-4 xs:text-sm sm:text-xs lg:text-lg text-black xs:mt-4 md:mt-0 transition duration-300 ease-in-out transform hover:bg-yellow-600 hover:-translate-y-1 hover:scale-105"
                     >
                         Contate-nos
                     </button>

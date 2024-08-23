@@ -73,10 +73,11 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            {/* //menu mobile */}
             <AnimatePresence>
                 {open && (
                     <motion.div
-                        className="w-screen h-screen absolute z-50 bg-black flex flex-col"
+                        className="w-screen h-screen absolute z-50 bg-black flex flex-col overflow-hidden"
                         initial="closed"
                         animate="open"
                         exit="closed"
@@ -96,7 +97,7 @@ const Navbar = () => {
                                 </svg>
                             </button>
                         </div>
-                        <hr className="mt-5 text-yellow" />
+                        <hr className="mt-5 border-t-1 border-yellow bg-yellow h-[0.5px]" />
                         <ul className="space-y-8 mt-20 pl-7 text-yellow">
                             {['Nossos Advogados', 'Serviços', 'Sobre nós', 'Contato'].map((text, i) => (
                                 <motion.li
