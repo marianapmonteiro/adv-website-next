@@ -49,10 +49,10 @@ const Hero = () => {
     return (
         <div className="w-full h-full relative overflow-hidden">
             <div className="relative h-screen w-full">
-                <div className="absolute top-0 left-0 w-full h-full overflow-hidden bg-fixed bg-cover bg-center lg:bg-cover lg:bg-fixed xs:bg-contain xs:bg-scroll">
-                    <AnimatePresence initial={false} custom={direction} className="bg-fixed h-full w-full">
+                <div className="absolute top-0 left-0 w-full h-full overflow-hiddenbg-cover bg-center lg:bg-cover lg:bg-fixed xs:bg-contain xs:bg-scroll">
+                    <AnimatePresence initial={false} custom={direction} className=" h-full w-full">
                         <motion.div
-                            className="w-full h-full absolute top-0 left-0 bg-fixed"
+                            className="w-full h-full absolute top-0 left-0"
                             key={bgImage}
                             variants={variants}
                             initial="initial"
